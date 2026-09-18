@@ -236,7 +236,7 @@ const LandingPage = () => {
             return;
           }
           
-          const mailtoLink = `mailto:contact@littleworks.ca?subject=Website Inquiry from ${name}&body=${message}`;
+          const mailtoLink = `mailto:hr@littleworks.ca?subject=${encodeURIComponent(`Website Inquiry from ${name}`)}&body=${encodeURIComponent(`From: ${email}\n\n${message}`)}`;
           window.location.href = mailtoLink;
         }
        }, 'Send Message')
@@ -265,7 +265,7 @@ React.createElement('footer', {
       ]),
       React.createElement('div', null, [
         React.createElement('h3', { className: 'font-bold text-lg' }, 'Contact'),
-        React.createElement('p', { className: 'mt-2 text-gray-400' }, 'contact@littleworks.ca')
+        React.createElement('p', { className: 'mt-2 text-gray-400' }, 'hr@littleworks.ca')
       ])
     ])
   )
