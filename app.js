@@ -155,20 +155,6 @@ const LandingPage = () => {
          React.createElement('p', { className: 'text-xl text-gray-600 max-w-3xl mx-auto' }, 
            'Empowering businesses with innovative cloud solutions since 2020')
        ]),
-       React.createElement('div', { className: 'grid md:grid-cols-3 gap-8 mt-12' }, [
-         React.createElement('div', { className: 'text-center p-6 bg-white rounded-lg shadow-sm' }, [
-           React.createElement('div', { className: 'text-4xl font-bold text-blue-600 mb-2' }, '100+'),
-           React.createElement('p', { className: 'text-gray-600' }, 'Projects Delivered')
-         ]),
-         React.createElement('div', { className: 'text-center p-6 bg-white rounded-lg shadow-sm' }, [
-           React.createElement('div', { className: 'text-4xl font-bold text-blue-600 mb-2' }, '50+'),
-           React.createElement('p', { className: 'text-gray-600' }, 'Enterprise Clients')
-         ]),
-         React.createElement('div', { className: 'text-center p-6 bg-white rounded-lg shadow-sm' }, [
-           React.createElement('div', { className: 'text-4xl font-bold text-blue-600 mb-2' }, '24/7'),
-           React.createElement('p', { className: 'text-gray-600' }, 'Expert Support')
-         ])
-       ]),
        React.createElement('div', { className: 'mt-12 bg-white p-8 rounded-lg shadow-sm' }, [
          React.createElement('h3', { className: 'text-2xl font-bold mb-4' }, 'Why Choose Us'),
          React.createElement('div', { className: 'grid md:grid-cols-2 gap-6' }, [
