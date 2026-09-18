@@ -260,7 +260,8 @@ React.createElement('footer', {
         React.createElement('h3', { className: 'font-bold text-lg' }, 'Quick Links'),
         React.createElement('div', { className: 'mt-2 space-y-2' }, [
           React.createElement('a', { href: '#services', className: 'block text-gray-400 hover:text-white transition-colors' }, 'Services'),
-          React.createElement('a', { href: '#contact', className: 'block text-gray-400 hover:text-white transition-colors' }, 'Contact')
+          React.createElement('a', { href: '#contact', className: 'block text-gray-400 hover:text-white transition-colors' }, 'Contact'),
+          React.createElement('a', { href: '/privacy-policy.html', className: 'block text-gray-400 hover:text-white transition-colors' }, 'Privacy Policy')
         ])
       ]),
       React.createElement('div', null, [
